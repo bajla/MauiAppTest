@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.app/libSystem.Native.dylib

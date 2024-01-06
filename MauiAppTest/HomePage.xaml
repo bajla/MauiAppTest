@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTest.HomePage" 
+             >
+    <ContentPage.Content>
+        <!-- <Label>Hello there</Label> -->
+        <ScrollView>
+            <StackLayout
+                Padding="30,0"
+                Spacing="25">
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Text="Osebna invetura" Grid.Row="0" Grid.Column="0" BackgroundColor="Gray" x:Name="OsebnaInv_btn" Clicked="OsebnaInv_btn_OnClicked"> </Button>
+                    <Button Text="Drugi uporabniki" Grid.Row="0" Grid.Column="1" BackgroundColor="DimGray" x:Name="DrugiUpr_btn"  Clicked="DrugiUpr_btn_OnClicked"></Button>
+                    <Line Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" StrokeThickness="3" ></Line>
+                    <Button Text="Najem" Grid.Row="2" Grid.Column="0" BackgroundColor="Gray" x:Name="Najem_btn" Clicked="Najem_btn_OnClicked"> </Button>
+                    <Button  Text="Prodaja" Grid.Row="2" Grid.Column="1" BackgroundColor="DimGray" x:Name="Prodaja_btn"  Clicked="Prodaja_btn_OnClicked"></Button>
+                    <Button Margin="0,15" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" Text="Dodaj" x:Name="Dodaj_btn" Clicked="Dodaj_btn_OnClicked"></Button>
+
+                </Grid>
+                <StackLayout x:Name="Vozila_stack" >
+                    
+                </StackLayout>
+                
+            </StackLayout>
+            
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
