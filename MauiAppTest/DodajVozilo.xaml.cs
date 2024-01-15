@@ -106,7 +106,7 @@ public partial class DodajVozilo : ContentPage
     {
         if (Avto.IsChecked)
         {
-            Avto avto = new Avto(ImeVozila.Text, double.Parse(CenaVozila.Text),int.Parse(StSedezov.Text),int.Parse(LetnikVozila.Text),int.Parse(StLastnikov.Text),0,int.Parse(MaxHitrost.Text),4,int.Parse(Avto_VelMotorja.Text), int.Parse(Avto_StCilindrov.Text), int.Parse(Avto_MocMotorja.Text), int.Parse(Avto_Poraba.Text), Avto_VrstaGoriva.Text);
+            Avto avto = new Avto(ImeVozila.Text, double.Parse(CenaVozila.Text),int.Parse(StSedezov.Text),int.Parse(LetnikVozila.Text),int.Parse(StLastnikov.Text),0,int.Parse(MaxHitrost.Text),4,int.Parse(Avto_VelMotorja.Text), int.Parse(Avto_StCilindrov.Text), int.Parse(Avto_MocMotorja.Text), int.Parse(Avto_Poraba.Text), Avto_VrstaGoriva.Text, Avto_Znamka.Text);
             HomePage.VsaVozila.Add(avto);
             _homePage.RefreshList();
             Navigation.PopModalAsync();

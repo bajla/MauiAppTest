@@ -49,6 +49,7 @@
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../MauiAppTest.app/Microsoft.Maui.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../MauiAppTest.app/Microsoft.Maui.Essentials.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../MauiAppTest.app/Microsoft.Maui.Graphics.dll
+/Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../MauiAppTest.app/Newtonsoft.Json.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../MauiAppTest.app/Vozila.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../MauiAppTest.app/MauiAppTest.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../MauiAppTest.app/Microsoft.CSharp.dll

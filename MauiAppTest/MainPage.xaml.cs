@@ -7,6 +7,7 @@ public partial class MainPage : ContentPage
 {
     int count = 0;
     public static BindingList<Oseba> VseOsebe;
+    public static Oseba PrijavljenaOseba;
     
     
     
@@ -34,9 +35,9 @@ public partial class MainPage : ContentPage
                 {
                     if (uporabnik.PreveriGeslo(Pass.Text))
                     {
+                        PrijavljenaOseba = uporabnik;
                         HomePage page = new HomePage();
                         //NavigationPage.SetHasBackButton(page, false);
-                        
                         Navigation.PushModalAsync(page);
                         
                     }

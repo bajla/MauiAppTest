@@ -26,6 +26,7 @@
                     <Line Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="0" StrokeThickness="3" ></Line>
                     <Button Text="Najem" Grid.Row="2" Grid.Column="0" BackgroundColor="Gray" x:Name="Najem_btn" Clicked="Najem_btn_OnClicked"> </Button>
                     <Button  Text="Prodaja" Grid.Row="2" Grid.Column="1" BackgroundColor="DimGray" x:Name="Prodaja_btn"  Clicked="Prodaja_btn_OnClicked"></Button>
+                    <Button Margin="0,15" Grid.Row="3" Grid.Column="0" HorizontalOptions="Start" x:Name="Odjava_btn" Clicked="Odjava_btn_OnClicked" Text="Odjava"></Button>
                     <Button Margin="0,15" Grid.Row="3" Grid.Column="1" HorizontalOptions="End" Text="Dodaj" x:Name="Dodaj_btn" Clicked="Dodaj_btn_OnClicked"></Button>  
                     
                     

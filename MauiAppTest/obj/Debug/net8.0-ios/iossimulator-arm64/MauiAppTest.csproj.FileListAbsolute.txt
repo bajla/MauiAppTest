@@ -313,6 +313,7 @@
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.sourcelink.json
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/Vozila.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/Vozila.pdb
+/Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/Newtonsoft.Json.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.CSharp.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp
@@ -336,6 +337,7 @@
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Win32.Registry.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/mscorlib.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/netstandard.stamp
+/Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Newtonsoft.Json.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/System.AppContext.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/System.Buffers.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/System.Collections.Concurrent.stamp

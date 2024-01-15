@@ -194,8 +194,6 @@
                     <Entry Grid.Row="9" x:Name="Vodno_VrstaGoriva"></Entry>
                     <Label Grid.Row="10" >St Motorjev:</Label>
                     <Entry Grid.Row="11" x:Name="Vodno_StMotorjev"/>
-                    <Label Grid.Row="12">St Potnikov:</Label>
-                    <Entry Grid.Row="13" x:Name="Vodno_StPotnikov"/>
                 </Grid>
 
                 

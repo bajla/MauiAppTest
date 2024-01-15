@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTest.KupiVozilo">
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25">
+                <Button x:Name="Nazaj" Text="Nazaj" Clicked="Nazaj_OnClicked"/>
+                <Label x:Name="Ime" Text="Ime: "/>
+                <Label x:Name="Cena" Text="Cena: "/>
+                <Label x:Name="StSedezov" Text="St. Sedezov: "/>
+                <Label x:Name="LetnikVozila" Text="Letnik Vozila: "/>
+                <Label x:Name="StLastnikov" Text="St. Lastnikov: "/>
+                <Label x:Name="MaxHitrost" Text="Max Hitrost: "/>
+                
+                <StackLayout x:Name="Stack_Avto" IsVisible="False">
+                    <Label x:Name="Avto_VelikostMotorja" Text="Velikost motorja: "/>
+                    <Label x:Name="Avto_StCilindrov" Text="St. Cilindrov: "/>
+                    <Label x:Name="Avto_MocMotorja" Text="Moc Motorja: "/>
+                    <Label x:Name="Avto_Poraba" Text="Poraba: "/>
+                    <Label x:Name="Avto_VrstaGoriva" Text="Vrsta goriva: "/>
+                    <Label x:Name="Avto_Znamka" Text="Znamka: "/>
+                </StackLayout>
+                
+                <StackLayout x:Name="Stack_Kolo" IsVisible="False">
+                    <Label x:Name="Kolo_Znamka" Text="Znamka: "/>
+               </StackLayout>
+                
+                <StackLayout x:Name="Stack_Coln" IsVisible="False">
+                    <Label x:Name="Coln_StVesel" Text="St. Vesel: "/>
+                </StackLayout>
+                
+                <StackLayout x:Name="Stack_Jahta" IsVisible="False">
+                    <Label x:Name="Jahta_VelikostMotorja" Text="Velikost motorja: "/>
+                    <Label x:Name="Jahta_StCilindrov" Text="St. Cilindrov: "/>
+                    <Label x:Name="Jahta_MocMotorja" Text="Moc Motorja: "/>
+                    <Label x:Name="Jahta_Poraba" Text="Poraba: "/>
+                    <Label x:Name="Jahta_VrstaGoriva" Text="Vrsta goriva: "/>
+                    <Label x:Name="Jahta_StMotorjev" Text="St. Motorjev: "/>
+                    <Label x:Name="Jahta_StPotnikov" Text="St. Potnikov: "></Label>
+                </StackLayout>
+                
+                <StackLayout x:Name="Stack_Kopensko" IsVisible="False">
+                    <Label x:Name="Kopensko_VelikostMotorja" Text="Velikost motorja: "/>
+                    <Label x:Name="Kopensko_StCilindrov" Text="St. Cilindrov: "/>
+                    <Label x:Name="Kopensko_MocMotorja" Text="Moc Motorja: "/>
+                    <Label x:Name="Kopensko_Poraba" Text="Poraba: "/>
+                    <Label x:Name="Kopensko_VrstaGoriva" Text="Vrsta goriva: "/>
+                    
+                </StackLayout>
+                
+                <StackLayout x:Name="Stack_Vodno" IsVisible="False">
+                    <Label x:Name="Vodno_VelikostMotorja" Text="Velikost motorja: "/>
+                    <Label x:Name="Vodno_StCilindrov" Text="St. Cilindrov: "/>
+                    <Label x:Name="Vodno_MocMotorja" Text="Moc Motorja: "/>
+                    <Label x:Name="Vodno_Poraba" Text="Poraba: "/>
+                    <Label x:Name="Vodno_VrstaGoriva" Text="Vrsta goriva: "/>
+                    <Label x:Name="Vodno_StMotorjev" Text="St. Motorjev: "/>
+                    
+                </StackLayout>
+                
+                <Button x:Name="Kupi" Text="Prodaj" Clicked="Kupi_OnClicked"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

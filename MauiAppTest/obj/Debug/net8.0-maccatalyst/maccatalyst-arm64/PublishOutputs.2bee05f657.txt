@@ -49,6 +49,7 @@
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MauiAppTest.app/Contents/MonoBundle/Microsoft.Maui.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MauiAppTest.app/Contents/MonoBundle/Microsoft.Maui.Essentials.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MauiAppTest.app/Contents/MonoBundle/Microsoft.Maui.Graphics.dll
+/Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MauiAppTest.app/Contents/MonoBundle/Newtonsoft.Json.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MauiAppTest.app/Contents/MonoBundle/Vozila.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MauiAppTest.app/Contents/MonoBundle/MauiAppTest.dll
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MauiAppTest.app/Contents/MonoBundle/Microsoft.CSharp.dll

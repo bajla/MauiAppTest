@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			El9tIgX33CBg/PLSuhzS/I8rV2bhQwb486BmLGbZk68=
+			oVkA/LhO5YS2PjRvLMnEBJWqsrrz14Eonb5rtTgOxMU=
 			</data>
 		</dict>
 		<key>MonoBundle/MauiAppTest.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ITp/EiL4F4lZgKc4wpDIOFk4GX9IXNSLI/jU7pWu8i0=
+			cO7gdLykvCROaEOthSNnMrOqroe9HIeD1wzG0+wF7HU=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -213,6 +213,13 @@
 			<key>hash2</key>
 			<data>
 			bSK7HTiJRjiAhOMWkfatCSh/584ZhMRdAAFTkyVZEtM=
+			</data>
+		</dict>
+		<key>MonoBundle/Newtonsoft.Json.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IsZJ91/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1346,14 +1353,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pSftB1NOU0b9l0OW+t4M/t+019aFRRsr6RLiVyjT9rI=
+			NiUifZ68f27kGuGqrEw5gmp6lqvxSAvkUTKWt+GF4jg=
 			</data>
 		</dict>
 		<key>MonoBundle/Vozila.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLc3W+oL6KNUFe79qp22YEgly3P9Ssl88E8ptuZk3+s=
+			JH/Fh2n/LuAJacu+6U8FwVvJmNhv1xNzwYG2D7132nI=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
