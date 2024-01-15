@@ -62,4 +62,10 @@
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Vozila">
+        <HintPath>..\..\Vozila\Vozila\bin\Debug\net8.0-maccatalyst\Vozila.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

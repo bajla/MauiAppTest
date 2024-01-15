@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bpAbKJWEgHd4uF+CD+y8nVyq+pMUW6vIU5W9LbgvOJQ=
+			El9tIgX33CBg/PLSuhzS/I8rV2bhQwb486BmLGbZk68=
 			</data>
 		</dict>
 		<key>MonoBundle/MauiAppTest.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8XubcNgTk5BoSJGvlz82JgLgtB+NUOzh70w1oGDZAH8=
+			ITp/EiL4F4lZgKc4wpDIOFk4GX9IXNSLI/jU7pWu8i0=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -1340,6 +1340,20 @@
 			<key>hash2</key>
 			<data>
 			gr0jXv5T+DO9JBI5ajH5dWZmL+Vgazaw3Mzmm/RwODI=
+			</data>
+		</dict>
+		<key>MonoBundle/Vozila.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pSftB1NOU0b9l0OW+t4M/t+019aFRRsr6RLiVyjT9rI=
+			</data>
+		</dict>
+		<key>MonoBundle/Vozila.pdb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TLc3W+oL6KNUFe79qp22YEgly3P9Ssl88E8ptuZk3+s=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>

@@ -9,7 +9,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d01c8d0-508f-474b-80df-3600efb49561" name="Changes" comment="" />
+    <list default="true" id="2d01c8d0-508f-474b-80df-3600efb49561" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MauiAppTest/PreglejVozilo.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MauiAppTest/PreglejVozilo.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MauiAppTest/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MauiAppTest/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MauiAppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MauiAppTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/DodajVozilo.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/DodajVozilo.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/DodajVozilo.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/DodajVozilo.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/HomePage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/HomePage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/HomePage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/HomePage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/MauiAppTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/MauiAppTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/Vozilo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.app/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.app/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.app/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.app/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/MacOS/MauiAppTest" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/MacOS/MauiAppTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/MonoBundle/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/MonoBundle/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/MonoBundle/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/MonoBundle/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.app/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/PublishOutputs.3faa180c7e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/PublishOutputs.3faa180c7e.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/linked/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/linked/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/linked/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/linked/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/ref/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/ref/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/refint/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/refint/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/PublishOutputs.2bee05f657.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/PublishOutputs.2bee05f657.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linked/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linked/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linked/MauiAppTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/linked/MauiAppTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/MauiAppTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/refint/MauiAppTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MauiAppTest/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/refint/MauiAppTest.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +86,6 @@
     "DeviceKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider": "Simulator",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Xamarin.Android.MauiAppTest.executor": "Run",
     "Xamarin.Mac.MauiAppTest.executor": "Run",
     "Xamarin.iOS.MauiAppTest.executor": "Run",
@@ -110,7 +152,7 @@
       <workItem from="1704311857703" duration="997000" />
       <workItem from="1704312938875" duration="656000" />
       <workItem from="1704366934482" duration="2879000" />
-      <workItem from="1704408964438" duration="12601000" />
+      <workItem from="1704408964438" duration="36901000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />

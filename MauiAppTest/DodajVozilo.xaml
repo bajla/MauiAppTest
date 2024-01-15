@@ -5,7 +5,203 @@
              x:Class="MauiAppTest.DodajVozilo">
     <ContentPage.Content>
         <ScrollView>
-            
+            <VerticalStackLayout 
+                Padding="30,0"
+                Spacing="25"
+                x:Name="Stack">
+                <Button x:Name="Nazaj" Text="Nazaj" Clicked="Nazaj_OnClicked"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label>Avto:</Label>
+                    <CheckBox x:Name="Avto"  CheckedChanged="IsCheckBoxChanged"/>
+                    <Label Grid.Column="1"  >Kolo</Label>
+                    <CheckBox Grid.Column="1" CheckedChanged="IsCheckBoxChanged" x:Name="Kolo"/>
+                    <Label Grid.Column="2" >Coln</Label>
+                    <CheckBox Grid.Column="2" CheckedChanged="IsCheckBoxChanged" x:Name="Coln"/>
+                    
+                    <Label Grid.Row="1" >Jahta</Label>
+                    <CheckBox Grid.Row="1" CheckedChanged="IsCheckBoxChanged" x:Name="Jahta"/>
+                    <Label Grid.Row="1" Grid.Column="1" >Vodno Motorno</Label>
+                    <CheckBox Grid.Row="1" Grid.Column="1" CheckedChanged="IsCheckBoxChanged" x:Name="Vodno"/>
+                    <Label Grid.Row="1" Grid.Column="2" >Kopensko Motorno</Label>
+                    <CheckBox Grid.Row="1" Grid.Column="2" CheckedChanged="IsCheckBoxChanged" x:Name="Kopensko"/>
+                </Grid>
+                
+                <Label>Ime vozila:</Label>
+                <Entry x:Name="ImeVozila"></Entry>
+                <Label>Cena Vozila:</Label>
+                <Entry x:Name="CenaVozila"></Entry>
+                <Label>St. Sedezov:</Label>
+                <Entry x:Name="StSedezov"></Entry>
+                <Label>Letnik vozila:</Label>
+                <Entry x:Name="LetnikVozila"></Entry>
+                <Label>St. Lastnikov:</Label>
+                <Entry x:Name="StLastnikov"></Entry>
+                <Label>Max Hitrost</Label>
+                <Entry x:Name="MaxHitrost"></Entry>
+                
+                <Grid x:Name="Grid_Avto" IsVisible="False" RowSpacing="25" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label  >Velikost motorja:</Label>
+                    <Entry Grid.Row="1" x:Name="Avto_VelMotorja"/>
+                    <Label Grid.Row="2" >St. Cilindrov</Label>
+                    <Entry Grid.Row="3" x:Name="Avto_StCilindrov"/>
+                    <Label Grid.Row="4" >Moc Motorja</Label>
+                    <Entry Grid.Row="5" x:Name="Avto_MocMotorja"/>
+                    <Label Grid.Row="6" >Poraba</Label>
+                    <Entry Grid.Row="7" x:Name="Avto_Poraba"/>
+                    <Label Grid.Row="8" >Vrsta Goriva</Label>
+                    <Entry Grid.Row="9" x:Name="Avto_VrstaGoriva"></Entry>
+                    <Label Grid.Row="10" >Znamka:</Label>
+                    <Entry Grid.Row="11" x:Name="Avto_Znamka"/>
+                </Grid>
+                
+                <Grid x:Name="Grid_Kolo" IsVisible="False" RowSpacing="25">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label>Znamka:</Label>
+                    <Entry Grid.Row="1" x:Name="Kolo_Znamka"/>
+                </Grid>
+                
+                <Grid x:Name="Grid_Coln" IsVisible="False" RowSpacing="25">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label>St Vesel:</Label>
+                    <Entry Grid.Row="1" x:Name="Coln_StVesel"/>
+                </Grid>
+                
+                <Grid x:Name="Grid_Jahta" IsVisible="False" RowSpacing="25" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label>Velikost motorja:</Label>
+                    <Entry Grid.Row="1" x:Name="Jahta_VelMotorja"/>
+                    <Label Grid.Row="2">St. Cilindrov</Label>
+                    <Entry Grid.Row="3" x:Name="Jahta_StCilindrov"/>
+                    <Label Grid.Row="4">Moc Motorja</Label>
+                    <Entry Grid.Row="5" x:Name="Jahta_MocMotorja"/>
+                    <Label Grid.Row="6">Poraba</Label>
+                    <Entry Grid.Row="7" x:Name="Jahta_Poraba"/>
+                    <Label Grid.Row="8" >Vrsta Goriva</Label>
+                    <Entry Grid.Row="9" x:Name="Jahta_VrstaGoriva"></Entry>
+                    <Label Grid.Row="10" >St Motorjev:</Label>
+                    <Entry Grid.Row="11" x:Name="Jahta_StMotorjev"/>
+                    <Label Grid.Row="12">St Potnikov:</Label>
+                    <Entry Grid.Row="13" x:Name="Jahta_StPotnikov"/>
+                </Grid>
+
+                <Grid x:Name="Grid_Kopensko" IsVisible="False" RowSpacing="25" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label  >Velikost motorja:</Label>
+                    <Entry Grid.Row="1" x:Name="Kopensko_VelMotorja"/>
+                    <Label Grid.Row="2" >St. Cilindrov</Label>
+                    <Entry Grid.Row="3" x:Name="Kopensko_StCilindrov"/>
+                    <Label Grid.Row="4" >Moc Motorja</Label>
+                    <Entry Grid.Row="5" x:Name="Kopensko_MocMotorja"/>
+                    <Label Grid.Row="6" >Poraba</Label>
+                    <Entry Grid.Row="7" x:Name="Kopensko_Poraba"/>
+                    <Label Grid.Row="8" >Vrsta Goriva</Label>
+                    <Entry Grid.Row="9" x:Name="Kopensko_VrstaGoriva"></Entry>
+                </Grid>
+
+                <Grid x:Name="Grid_Vodno" IsVisible="False" RowSpacing="25" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label>Velikost motorja:</Label>
+                    <Entry Grid.Row="1" x:Name="Vodno_VelMotorja"/>
+                    <Label Grid.Row="2">St. Cilindrov</Label>
+                    <Entry Grid.Row="3" x:Name="Vodno_StCilindrov"/>
+                    <Label Grid.Row="4">Moc Motorja</Label>
+                    <Entry Grid.Row="5" x:Name="Vodno_MocMotorja"/>
+                    <Label Grid.Row="6">Poraba</Label>
+                    <Entry Grid.Row="7" x:Name="Vodno_Poraba"/>
+                    <Label Grid.Row="8" >Vrsta Goriva</Label>
+                    <Entry Grid.Row="9" x:Name="Vodno_VrstaGoriva"></Entry>
+                    <Label Grid.Row="10" >St Motorjev:</Label>
+                    <Entry Grid.Row="11" x:Name="Vodno_StMotorjev"/>
+                    <Label Grid.Row="12">St Potnikov:</Label>
+                    <Entry Grid.Row="13" x:Name="Vodno_StPotnikov"/>
+                </Grid>
+
+                
+                <Button x:Name="Btn_Dodaj" Text="Dodaj" Clicked="Btn_Dodaj_OnClicked" IsEnabled="False" />
+                
+            </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
