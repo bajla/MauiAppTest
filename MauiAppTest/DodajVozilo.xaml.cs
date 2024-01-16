@@ -110,7 +110,41 @@ public partial class DodajVozilo : ContentPage
             HomePage.VsaVozila.Add(avto);
             _homePage.RefreshList();
             Navigation.PopModalAsync();
-
+        }
+        else if(Kolo.IsChecked)
+        {
+            Kolo kolo = new Kolo(ImeVozila.Text, double.Parse(CenaVozila.Text),int.Parse(StSedezov.Text),int.Parse(LetnikVozila.Text),int.Parse(StLastnikov.Text),0,int.Parse(MaxHitrost.Text),2, Avto_Znamka.Text);
+            HomePage.VsaVozila.Add(kolo);
+            _homePage.RefreshList();
+            Navigation.PopModalAsync();
+        }
+        else if (Coln.IsChecked)
+        {
+            Coln coln = new Coln(ImeVozila.Text, double.Parse(CenaVozila.Text),int.Parse(StSedezov.Text),int.Parse(LetnikVozila.Text),int.Parse(StLastnikov.Text),0,int.Parse(MaxHitrost.Text),int.Parse(Coln_StVesel.Text));
+            HomePage.VsaVozila.Add(coln);
+            _homePage.RefreshList();
+            Navigation.PopModalAsync();
+        }
+        else if (Jahta.IsChecked)
+        {
+            Jahta jahta = new Jahta(ImeVozila.Text, double.Parse(CenaVozila.Text),int.Parse(StSedezov.Text),int.Parse(LetnikVozila.Text),int.Parse(StLastnikov.Text),0,int.Parse(MaxHitrost.Text),int.Parse(Avto_VelMotorja.Text), int.Parse(Avto_StCilindrov.Text), int.Parse(Avto_MocMotorja.Text), int.Parse(Avto_Poraba.Text), Avto_VrstaGoriva.Text, int.Parse(Jahta_StMotorjev.Text), int.Parse(Jahta_StPotnikov.Text));
+            HomePage.VsaVozila.Add(jahta);
+            _homePage.RefreshList();
+            Navigation.PopModalAsync();
+        }
+        else if (Vodno.IsChecked)
+        {
+            VodnoMotorno jahta = new VodnoMotorno(ImeVozila.Text, double.Parse(CenaVozila.Text),int.Parse(StSedezov.Text),int.Parse(LetnikVozila.Text),int.Parse(StLastnikov.Text),0,int.Parse(MaxHitrost.Text),int.Parse(Avto_VelMotorja.Text), int.Parse(Avto_StCilindrov.Text), int.Parse(Avto_MocMotorja.Text), int.Parse(Avto_Poraba.Text), Avto_VrstaGoriva.Text, int.Parse(Jahta_StMotorjev.Text));
+            HomePage.VsaVozila.Add(jahta);
+            _homePage.RefreshList();
+            Navigation.PopModalAsync();
+        }
+        else if (Kopensko.IsChecked)
+        {
+            KopnoMotorno kopno = new KopnoMotorno(ImeVozila.Text, double.Parse(CenaVozila.Text),int.Parse(StSedezov.Text),int.Parse(LetnikVozila.Text),int.Parse(StLastnikov.Text),0,int.Parse(MaxHitrost.Text),4,int.Parse(Avto_VelMotorja.Text), int.Parse(Avto_StCilindrov.Text), int.Parse(Avto_MocMotorja.Text), int.Parse(Avto_Poraba.Text), Avto_VrstaGoriva.Text);
+            HomePage.VsaVozila.Add(kopno);
+            _homePage.RefreshList();
+            Navigation.PopModalAsync();
         }
     }
 }

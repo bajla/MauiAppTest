@@ -493,4 +493,5 @@
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/System.Xml.XmlSerializer.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/System.Xml.XPath.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/System.Xml.XPath.XDocument.stamp
+/Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Vozila.stamp
 /Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/WindowsBase.stamp

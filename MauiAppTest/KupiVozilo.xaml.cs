@@ -98,6 +98,10 @@ public partial class KupiVozilo : ContentPage
 
     private void Kupi_OnClicked(object? sender, EventArgs e)
     {
-        
+        HomePage.VsaVozilaNaProdaji.Remove(_vozilo);
+        _vozilo.oseba = MainPage.PrijavljenaOseba.UporabniskoIme;
+        HomePage.VsaVozila.Add(_vozilo);
+        Navigation.PopModalAsync();
+
     }
 }

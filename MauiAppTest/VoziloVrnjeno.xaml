@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTest.VoziloVrnjeno">
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout>
+                <Label> Koliko je bilo prevozenih km</Label>
+                <Entry x:Name="PrevozeniKm"></Entry>
+                <Button x:Name="Potrdi" Text="Potrdi" Clicked="Potrdi_OnClicked" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

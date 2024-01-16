@@ -182,8 +182,11 @@ public partial class HomePage : ContentPage
         else if (_osebnaInvSelected && !_najemSelected)
         {
             t = 0;
-            foreach (var i in VozilaNaProdaji)
+            foreach (var i in VsaVozilaNaProdaji)
             {
+                if(i.oseba != MainPage.PrijavljenaOseba.UporabniskoIme)
+                    continue;
+                
                 Grid grid1 = new Grid
                 {
                     RowDefinitions =
@@ -234,6 +237,9 @@ public partial class HomePage : ContentPage
             t = 0;
             foreach (var i in VsaVozilaNaProdaji)
             {
+                if(i.oseba == MainPage.PrijavljenaOseba.UporabniskoIme)
+                    continue;
+                
                 Grid grid1 = new Grid
                 {
                     RowDefinitions =
@@ -284,12 +290,12 @@ public partial class HomePage : ContentPage
 
     private void PreglejVoziloPage(object? sender, EventArgs e)
     {
-        Navigation.PushModalAsync(new PreglejVozilo(VsaVozila[int.Parse((sender as Button).ClassId)]));
+        Navigation.PushModalAsync(new PreglejVozilo(VsaVozila[int.Parse((sender as Button).ClassId)], this));
     }
     
     private void PreglejVoziloPageProdaja(object? sender, EventArgs e)
     {
-        Navigation.PushModalAsync(new PreglejVozilo(VozilaNaProdaji[int.Parse((sender as Button).ClassId)]));
+        Navigation.PushModalAsync(new PreglejVozilo(VsaVozilaNaProdaji[int.Parse((sender as Button).ClassId)], this));
     }
 
     private void VoziloPageProdaja(object? sender, EventArgs e)

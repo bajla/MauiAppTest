@@ -81,3 +81,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiAppTest.VoziloPage.xaml
 build_metadata.AdditionalFiles.TargetPath = VoziloPage.xaml
 build_metadata.AdditionalFiles.RelativePath = VoziloPage.xaml
+
+[/Users/aneyvaishnav/RiderProjects/MauiAppTest/MauiAppTest/VoziloVrnjeno.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppTest.VoziloVrnjeno.xaml
+build_metadata.AdditionalFiles.TargetPath = VoziloVrnjeno.xaml
+build_metadata.AdditionalFiles.RelativePath = VoziloVrnjeno.xaml

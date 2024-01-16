@@ -62,7 +62,7 @@
                     
                 </StackLayout>
                 
-                <Button x:Name="Kupi" Text="Prodaj" Clicked="Kupi_OnClicked"/>
+                <Button x:Name="Kupi" Text="Kupi" Clicked="Kupi_OnClicked"/>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>

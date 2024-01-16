@@ -10,17 +10,32 @@ namespace MauiAppTest;
 public partial class PreglejVozilo : ContentPage
 {
     private Vozilo _vozilo;
+    private HomePage _homePage;
     
-    public PreglejVozilo(Vozilo vozilo)
+    public PreglejVozilo(Vozilo vozilo, HomePage homePage)
     {
         InitializeComponent();
         _vozilo = vozilo;
+        _homePage = homePage;
         
         if (_vozilo.JeVoziloNaProdaji())
         {
+            Console.WriteLine(_vozilo.JeVoziloNaProdaji());
             Prodaja.IsVisible = false;
             DajVnajem.IsVisible = true;
+            VoziloNajeto.IsVisible = false;
+            Zbrisi.IsVisible = false;
         }
+        else if(_vozilo.Najeto)
+        {
+            Prodaja.IsVisible = false;
+            VoziloNajeto.IsVisible = false;
+            VoziloVrnjeno.IsVisible = true;
+            Zbrisi.IsVisible = false;
+        }
+        
+        
+        
         
         
 
@@ -30,6 +45,8 @@ public partial class PreglejVozilo : ContentPage
         LetnikVozila.Text += vozilo.LetnikVozila;
         StLastnikov.Text += vozilo.StLastnikov;
         MaxHitrost.Text += MaxHitrost;
+        Najeto.Text += _vozilo.Najeto;
+        StNajemov.Text += _vozilo.StNajemov;
         
         if (vozilo.GetType() == typeof(Avto))
         {
@@ -106,24 +123,63 @@ public partial class PreglejVozilo : ContentPage
 
     private void Button_OnClicked(object? sender, EventArgs e)
     {
-        HomePage.VozilaNaProdaji.Add(_vozilo);
-        HomePage.VsaVozilaNaProdaji.Add(_vozilo);
         HomePage.VsaVozila.Remove(_vozilo);
         DisplayMsgBox(_vozilo.DajNaProdajo());
-        Navigation.PopModalAsync();
+        _vozilo.oseba = MainPage.PrijavljenaOseba.UporabniskoIme;
+        HomePage.VsaVozilaNaProdaji.Add(_vozilo);
+        _homePage.RefreshList();
+        
+        //Navigation.PopModalAsync();
     }
 
     private void DajVnajem_OnClicked(object? sender, EventArgs e)
     {
-        HomePage.VsaVozila.Add(_vozilo);
         HomePage.VsaVozilaNaProdaji.Remove(_vozilo);
-        HomePage.VozilaNaProdaji.Remove(_vozilo);
         DisplayMsgBox(_vozilo.DajNazajVNajem());
-        Navigation.PopModalAsync();
+        
+        HomePage.VsaVozila.Add(_vozilo);
+        _homePage.RefreshList();
+        //Navigation.PopModalAsync();
     }
 
     private void DisplayMsgBox(string sporocilo)
     {
         DisplayAlert("Sporocilo", sporocilo, "OK");
+    }
+
+    private void VoziloNajeto_OnClicked(object? sender, EventArgs e)
+    {
+        
+        HomePage.VsaVozila.Remove(_vozilo);
+        
+        _vozilo.JeNajeto(true);
+        HomePage.VsaVozila.Add(_vozilo);
+        _homePage.RefreshList();
+        Navigation.PopModalAsync();
+        
+        
+    }
+
+    private void VoziloVrnjeno_OnClicked(object? sender, EventArgs e)
+    {
+        HomePage.VsaVozila.Remove(_vozilo);
+        
+        _vozilo.JeNajeto(false);
+        HomePage.VsaVozila.Add(_vozilo);
+        Navigation.PushModalAsync(new VoziloVrnjeno(_vozilo));
+
+        
+        _homePage.RefreshList();
+        
+        
+    }
+
+    
+
+    private void Zbrisi_OnClicked(object? sender, EventArgs e)
+    {
+        HomePage.VsaVozila.Remove(_vozilo);
+        _homePage.RefreshList();
+        Navigation.PopModalAsync();
     }
 }

@@ -15,6 +15,7 @@
                 <Label x:Name="LetnikVozila" Text="Letnik Vozila: "/>
                 <Label x:Name="StLastnikov" Text="St. Lastnikov: "/>
                 <Label x:Name="MaxHitrost" Text="Max Hitrost: "/>
+                <Label x:Name="StNajemov" Text="St. Najemov: " />
                 
                 <StackLayout x:Name="Stack_Avto" IsVisible="False">
                     <Label x:Name="Avto_VelikostMotorja" Text="Velikost motorja: "/>
@@ -62,8 +63,13 @@
                     
                 </StackLayout>
                 
+                <Label x:Name="Najeto" Text="Najeto: " Margin="0,15" />
+                
                 <Button x:Name="Prodaja" Text="Prodaj" Clicked="Button_OnClicked"/>
                 <Button x:Name="DajVnajem" IsVisible="False" Text="Daj v najem" Clicked="DajVnajem_OnClicked" />
+                <Button x:Name="VoziloNajeto" Text="Vozilo najeto" Clicked="VoziloNajeto_OnClicked"/>
+                <Button x:Name="VoziloVrnjeno" Text="Vozilo je vrnjeno" IsVisible="False" Clicked="VoziloVrnjeno_OnClicked" />
+                <Button x:Name="Zbrisi" Text="Zbrisi" Clicked="Zbrisi_OnClicked"></Button>
             </VerticalStackLayout>
         </ScrollView>
     </ContentPage.Content>
